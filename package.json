@@ -1,0 +1,35 @@
+{
+  "name": "bot",
+  "version": "1.0.0",
+  "description": "This is the Discord Bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/getintelect/bot.git"
+  },
+  "keywords": [
+    "Intelect",
+    "Discord",
+    "Bot"
+  ],
+  "author": "Emil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/getintelect/bot/issues"
+  },
+  "homepage": "https://github.com/getintelect/bot#readme",
+  "dependencies": {
+    "@discordjs/builders": "^0.13.0",
+    "@discordjs/rest": "^0.4.1",
+    "axios": "^0.27.2",
+    "debug": "^4.3.4",
+    "discord-api-types": "^0.32.1",
+    "discord.js": "^13.6.0",
+    "dotenv": "^16.0.0",
+    "mongoose": "^6.3.4",
+    "noblox.js": "^4.13.1"
+  }
+}
